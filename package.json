@@ -1,0 +1,22 @@
+{
+  "name": "curso-branas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "tsc:init": "tsc --init",
+  "build": "tsc",
+  "test": "tsc && jest dist/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  }
+}
